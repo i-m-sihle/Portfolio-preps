@@ -1,0 +1,32 @@
+body {
+    background-color: antiquewhite;
+    color: rgb(238, 115, 136);
+    font-size: 21px;
+
+}
+
+p {
+    color : darkgreen;
+
+}
+
+h1 {
+
+    font-size: 40px;
+    color: pink;
+}
+
+span{
+    color: red;
+    
+}
+
+img{
+    /* size: 10cm; */
+    max-width: 60%;
+    /* max-height: 90%; */
+}
+
+.only-div {
+    background-color: pink;
+}
