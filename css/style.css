@@ -1,18 +1,24 @@
 body {
-    background-color: antiquewhite;
+    background-image: url(../img/picture_day.jpg);
+    background-position: center;
+    /* background-color: burlywood; */
     color: rgb(238, 115, 136);
     font-size: 21px;
 
 }
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 p {
-    color : darkgreen;
+    color : black;
 
 }
 
 h1 {
-
-    font-size: 40px;
+    /* margin: 0px ; */
+    font-size: 50px;
     color: pink;
 }
 
@@ -27,6 +33,50 @@ img{
     /* max-height: 90%; */
 }
 
-.only-div {
-    background-color: pink;
+.only-div { 
+    /* background-color: burlywood; */
+    padding: 10px;
+    margin: 0px 0px 50px 0px;
+}
+/* .second-div {
+    /* margin: 50px 0px 50px 0px; */
+/* }  */
+
+.instagram-link {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.school-name {
+    color: blue;
+}
+
+.box-edits {
+
+    
+    padding: 20px ;
+    margin: 50px 300px 10px ;
+    /* width: 300px; */
+    /* height: 200px; */
+    background-color:  #be2596;
+    border: 10px solid  #801271;
+    border-style: double;
+    text-align: center;
+     
+}
+
+.more-info {
+    color: white;
+    margin: 50px 0px 100px ;
+}
+
+.mainContainer{
+    /* margin: 50px;
+     */
+     padding: 50px;
+}
+
+.fa-face-smile{
+    color: #be2596;
 }
